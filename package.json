@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/Fabriciasouzalima/md-links/issues"
   },
-  "homepage": "https://github.com/Fabriciasouzalima/md-links#readme"
+  "homepage": "https://github.com/Fabriciasouzalima/md-links#readme",
+  "bin": {
+    "mdLinks": "./lib/cli.js"
+  }
 }
