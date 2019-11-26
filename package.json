@@ -27,5 +27,12 @@
   "homepage": "https://github.com/Fabriciasouzalima/md-links#readme",
   "bin": {
     "mdLinks": "./lib/cli.js"
+  },
+  "dependencies": {
+    "eslint": "^5.9.0",
+    "eslint-plugin-jest": "^22.1.2",
+    "htmlhint": "^0.10.1",
+    "jest": "^23.6.0",
+    "serve": "^11.0.0"
   }
 }
