@@ -7,7 +7,9 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "eslint": "eslint --ext .js lib/ --fix",
+    "pretest": "npm run eslint",
+    "test": "jest --coverage" 
   },
   "repository": {
     "type": "git",
@@ -33,6 +35,6 @@
     "eslint-plugin-jest": "^22.1.2",
     "htmlhint": "^0.10.1",
     "jest": "^23.6.0",
-    "serve": "^11.0.0"
+    
   }
 }
