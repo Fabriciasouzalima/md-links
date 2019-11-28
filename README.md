@@ -9,7 +9,7 @@ Projeto utilizando - JS Vanilla  - Node.JS
 
 ## Como instalar:
 
-$  npm install mdLinks
+$  npm install -g Fabriciasouzalima/mdLinks
 
 ## Como utilizar:
 
