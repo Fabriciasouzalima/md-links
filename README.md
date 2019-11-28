@@ -9,11 +9,11 @@ Projeto utilizando - JS Vanilla  - Node.JS
 
 ## Como instalar:
 
-$  npm install linksmarkdown-mk
+$  npm install mdLinks
 
 ## Como utilizar:
 
-    > const linksMd = require("linksmarkdown-mk");
+    > const linksMd = require("mdLinks");
     > console.log(linksMd.getLinksFromMd('ut aliquip ex ea commodo consequat. [foo](http://foo.com) Duis 
     aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'))
     > // returns [{ href:  'http://foo.com', text:  'foo' }];
