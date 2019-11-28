@@ -9,7 +9,7 @@
   "scripts": {
     "eslint": "eslint --ext .js lib/ --fix",
     "pretest": "npm run eslint",
-    "test": "jest --coverage" 
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -34,6 +34,6 @@
     "eslint": "^5.9.0",
     "eslint-plugin-jest": "^22.1.2",
     "htmlhint": "^0.10.1",
-    "jest": "^23.6.0"    
+    "jest": "^23.6.0"
   }
 }
