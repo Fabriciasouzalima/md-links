@@ -13,10 +13,15 @@ $  npm install -g Fabriciasouzalima/md-links
 
 ## Como utilizar:
 
-    > const mdLinks = require("./lib/tests/text.md");
-    > returns https://pt.wikipedia.org/wiki/Markdown Markdown
-              https://nodejs.org/ Node.js
-              https://user-images.githubusercontent.com/110297/42118443-b7a5f1f0-7bc8-11e8-96ad-9cc5593715a6.jpg md-links;
+    > const mdLinks = require("./some/example.md");
+    > returns https://pt.wikipedia.org/wiki/Markdown 
+              Markdown
+
+              https://nodejs.org/ 
+              Node.js
+
+              https://user-images.githubusercontent.com/110297/42118443-b7a5f1f0-7bc8-11e8-96ad-9cc5593715a6.jpg 
+              md-links;
 
 ## roadmap oficial do projeto
 
