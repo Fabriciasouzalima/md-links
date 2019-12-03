@@ -13,10 +13,10 @@ $  npm install -g Fabriciasouzalima/md-links
 
 ## Como utilizar:
 
-    > const linksMd = require("mdLinks");
-    > console.log(linksMd.getLinksFromMd('ut aliquip ex ea commodo consequat. [foo](http://foo.com) Duis 
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'))
-    > // returns [{ href:  'http://foo.com', text:  'foo' }];
+    > const mdLinks = require("./lib/tests/text.md");
+    > returns https://pt.wikipedia.org/wiki/Markdown Markdown
+              https://nodejs.org/ Node.js
+              https://user-images.githubusercontent.com/110297/42118443-b7a5f1f0-7bc8-11e8-96ad-9cc5593715a6.jpg md-links;
 
 ## roadmap oficial do projeto
 
