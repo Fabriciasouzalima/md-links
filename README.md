@@ -11,32 +11,48 @@ Projeto utilizando - JS Vanilla  - Node.JS
 
 $  npm install -g Fabriciasouzalima/md-links
 
+Se for mostrado um erro de permissão, tente usar sudo (talvez você precise de permissões de administrador, dependendo da sua instalação do node).
+
+$ sudo npm install -g aline-camargo/SAP003-md-links
+
 ## Como utilizar:
 
 ## No Javascript:
 
-    > const mdLinks = require("./some/example.md");
-    return = [ { href: 'https://pt.wikipedia.org/wiki/Markdown', text: 'Markdown' },
-               { href: 'https://nodejs.org/', text: 'Node.js' },
-               { href: 'https://user-images.githubusercontent.com/110297/42118443-b7a5f1f0-7bc8-11e8-96ad-9cc5593715a6.jpg',text: 'md-links' } ]
-             [ { href: 'https://pt.wikipedia.org/wiki/Markdown', text: 'Markdown' },
-               { href: 'https://nodejs.org/', text: 'Node.js' },
-               { href: 'https://user-images.githubusercontent.com/110297/42118443-b7a5f1f0-7bc8-11e8-96ad-9cc5593715a6.jpg', text: 'md-links' } ]
+    const mdLinks = require(".caminho-pasta-instalação/lib/index.js");
+
+    mdLinks("./exemplo.md", { validate: true })
+    .then(links => {
+    if(validate) {
+      // => [{ href, text, status }]
+    } else {
+      // => [{ href, text }]
+    }
+  })
+  .catch(console.error);
+    
 
 ## No terminal:
 
- md-links ./lib/tests/text.md
+ $ md-links ./lib/tests/text.md 
+ 
+retorno esperado
+ https://pt.wikipedia.org/wiki/Markdown 
+ Markdown
 
-    > returns https://pt.wikipedia.org/wiki/Markdown 
-              Markdown
-
-              https://nodejs.org/ 
+https://nodejs.org/ 
               Node.js
 
-              https://user-images.githubusercontent.com/110297/42118443-b7a5f1f0-7bc8-11e8-96ad-9cc5593715a6.jpg 
+https://user-images.githubusercontent.com/110297/42118443-b7a5f1f0-7bc8-11e8-96ad-9cc5593715a6.jpg 
               md-links;
 
-## roadmap oficial do projeto
+## Ferramentas utilizadas
+
+* Node.js
+* fs
+* node-fetch
+* eslint 
+* Testes implementados com jest
 
 #### versão 1.0.0 (released)
 
