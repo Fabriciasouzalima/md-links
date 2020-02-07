@@ -51,6 +51,7 @@ https://user-images.githubusercontent.com/110297/42118443-b7a5f1f0-7bc8-11e8-96a
 * Node.js
 * fs
 * node-fetch
+* Regex
 * eslint 
 * Testes implementados com jest
 
